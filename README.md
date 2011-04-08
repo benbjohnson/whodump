@@ -3,9 +3,9 @@ whodump - A command line interface for checking domain name availability.
 
 ## DESCRIPTION
 
-Whodump is a command line tool that accepts a list of domain names through
-STDIN and checks for their availability using the Whois protocol. A list of
-available domains are returned.
+Whodump is a command line tool that accepts a list of domain names and checks
+for their availability using the Whois protocol. A list of available domains are
+returned.
 
 Whodump follows the rules of [Semantic Versioning](http://semver.org/).
 
@@ -20,9 +20,9 @@ Whodump is easy to install using RubyGems:
 ## GETTING STARTED
 
 To use `whodump`, simply pass in a list of domain separated by new line
-characters into the standard input like this:
+characters into the command:
 
-	$ cat my_domain_list.txt | whodump
+	$ whodump filter --available my_domain_list.txt
 
 
 ## DISCUSS
