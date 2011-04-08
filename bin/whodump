@@ -30,7 +30,7 @@ end
 
 command :filter do |c|
   c.syntax = 'whodump filter [options] FILE'
-  c.description = 'Filters domain names.'
+  c.description = 'Filters domain names by availability.'
   c.when_called do|args, options|
     filename = *args
     raise 'Filename is required' if filename.nil?

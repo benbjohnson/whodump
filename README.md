@@ -22,7 +22,7 @@ Whodump is easy to install using RubyGems:
 To use `whodump`, simply pass in a list of domain separated by new line
 characters into the command:
 
-	$ whodump filter --available my_domain_list.txt
+	$ whodump filter my_domain_list.txt
 
 
 ## DISCUSS
